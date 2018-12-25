@@ -23,14 +23,14 @@ Website Dir Scanner is a simple command line tool written in Python 3, which is 
 - Multiple extensions supported
 - 3 different formats of scanning reports supported (Plain Text Report, JSON Report, Simple Report)
 - Heuristically detect invalid web pages
-- Recursive brute forcing
+- Recursive brute forcing supported
 - HTTP proxy supported
 - User agent customization
 - Batch processing
-- Request delaying
+- Request delaying & timeout
 
 ## Requirements
-### Packages Used
+### Imported Packages
 - chardet
 - colorama
 - requests
@@ -52,13 +52,16 @@ $ python DirScanner.py -h
 ```
 
 ## About Wordlists
-Dictionaries must be text files. Each line will be processed as such, except that the special word %EXT% is used, which will generate one entry for each extension (-e | --extension) passed as an argument.
-<br/>
+Dictionary must be text files (_.txt).
+Except for the lines with keyword '%EXT%' in them, every line will be read and processed by the scanner.
+Those keywords '%EXT%' will be replaced with user custom extension(s) during the scanning process.
+
 Example:
 - example/
 - example.%EXT%
 
-Passing the extensions "asp" and "aspx" will generate the following dictionary:
+If command line passed in user custom extensions - 'asp' and 'aspx'.
+Scanner will replace the keyword '%EXT%' with given extensions and following dictionary will be generated:
 - example/
 - example.asp
 - example.aspx
