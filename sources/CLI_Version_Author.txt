@@ -1,0 +1,10 @@
+Version: v{Major_Verison}.{Minor_Version}.{Revision}
+
+Developed By: Karaya_12
+ ,                                     , __
+/|   /                                /|/  )
+ |__/   __,   ,_    __,         __,    |  /
+ | \   /  |  /  |  /  |  |   | /  |    | /
+ |  \_/\_/|_/   |_/\_/|_/ \_/|/\_/|_/  |/___
+                            /|
+                            \|     _____
