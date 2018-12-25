@@ -7,7 +7,7 @@ You should definitely check out Mauro Soria's original tool, link's down below.
 
 https://github.com/maurosoria/dirsearch
 
-Current Release: V 1.10 (2018.12.25)
+Current Release: v1.10 (2018.12.25)
 
 ## Overview
 Website Dir Scanner is a simple command line tool written in Python 3, which is designed to brute force directories and files in websites based on local dictionary.
@@ -30,11 +30,11 @@ Website Dir Scanner is a simple command line tool written in Python 3, which is 
 - Request delaying
 
 ## Requirements
-### Packages
+### Packages Used
 - chardet
 - colorama
 - requests
-### Install
+### Installation
 ```
 $ cd ./sources
 ```
@@ -70,6 +70,7 @@ MIT License
 
 ## Contributors
 Note: You should definitely check out the link down below, which is the original tool --> 'dirsearch' developed by Mauro Soria (maurosoria).
+
 https://github.com/maurosoria/dirsearch
 
 Special thanks to these great developers of original tool (dirsearch).
