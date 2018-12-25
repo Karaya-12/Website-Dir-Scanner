@@ -483,8 +483,7 @@ class CustomParser(object):
         dictionary.add_argument(
             '-f',
             '--force-extensions',
-            help=
-            "Force Extensions for Every Wordlist Entry (like in DirBuster)",
+            help="Force Extensions for Every Wordlist Entry",
             action='store_true',
             dest='forceExtensions',
             default=self.forceExtensions)
