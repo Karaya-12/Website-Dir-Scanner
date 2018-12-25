@@ -19,7 +19,7 @@ Website Dir Scanner is a simple command line tool written in Python 3, which is 
 
 ## Features
 - Multithreaded (1 ~ 50)
-- Keep alive connections
+- Keep connections alive
 - Multiple extensions supported
 - 3 different formats of scanning reports supported (Plain Text Report, JSON Report, Simple Report)
 - Heuristically detect invalid web pages
