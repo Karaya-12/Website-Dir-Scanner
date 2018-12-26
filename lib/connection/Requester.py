@@ -226,7 +226,7 @@ class Requester(object):
         if i > self.maxRetries:  # Reach Max Retries --> Raise Error
             raise RequestException({
                 'message':
-                'Connection Timeout ! A problem occured during the request to: {0}'
+                'Connect Timeout ! A Problem Occurred During The Request to: {0}'
                 .format(path)
             })
 

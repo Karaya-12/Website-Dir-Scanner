@@ -34,14 +34,3 @@ class Response(object):
         headers = dict(
             (key.lower(), value) for key, value in self.headers.items())
         return headers.get("location")
-
-    @property
-    def bsPrettify(self):
-        try:
-            from BeautifulSoup import BeautifulSoup
-        except ImportError:
-            raise Exception(
-                "BeautifulSoup is required. Check out ./sources/requirement.txt"
-            )
-        bs = BeautifulSoup(self.body, 'html.parser')
-        return bs.prettify()
